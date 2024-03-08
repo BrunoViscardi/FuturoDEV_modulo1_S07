@@ -1,0 +1,133 @@
+/*{color:#828282}*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left top, #efc5dd, #e7c2e3, #dcc0e9, #cebeef, #bcbef4, #acc4fa, #9bc9fe, #8acfff, #80daff, #7ee5fd, #84eef8, #92f7f0);
+    color: #4F4F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box-container {
+    display: flex;
+    margin: 40px 140px;
+    border-radius: 50px;
+    background-color: white;
+    height: calc(100vh - 2*40px);
+}
+
+.registro-container {
+    padding: 70px 150px;
+    flex: 1;
+    width: 50%;
+}
+
+.login-container {
+    padding: 70px 150px;
+    flex: 1;
+    width: 50%;
+}
+
+.titulo {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.registro {
+    font-size: 17.778px;
+}
+
+.registro a {
+    text-decoration: none;
+    font-weight: 900;
+    color: #4460F1;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 17.778px;
+}
+
+
+.campo-email,
+.campo-senha {
+    padding: 20px 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #E9EFF6;
+    margin-bottom: 15px;
+}
+
+input {
+    all: unset;
+    border-style: none;
+    background-color: #E9EFF6;
+    font-size: 17.778px;
+}
+
+.campo-senha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-container p {
+    width: auto;
+    margin: 0;
+    text-align: end;
+    margin-bottom: 15px;
+}
+
+.button-SignIn {
+    border-radius: 20px;
+    border-style: none;
+    background-color: #4460F1;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white !important;
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #828282;
+    overflow: visible;
+    text-align: center;
+  }
+  
+  hr::after {
+    background: white;
+    content: 'or';
+    padding: 0 20px;
+    position: relative;
+    top: -13px;
+    color: #828282;
+  }
+  
+  .continue{
+    border: #828282 solid 1px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color:#828282;
+
+  }
+
+  .continue img{
+    margin-right: 30px;
+  }
+

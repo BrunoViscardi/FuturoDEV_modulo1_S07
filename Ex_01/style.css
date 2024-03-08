@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header{
+    background-color:#011936;
+    width: 100vw;
+    height: 90px;
+    padding: 10px;
+}
+
+.bodyContainer{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 90px);
+}
+
+.sidebar{
+    background-color: #59594A;
+    width: 260px;
+    padding: 10px;
+}
+
+.content{
+    background-color: #C2EABD;
+    width: 100%;
+    padding: 10px;
+}
+

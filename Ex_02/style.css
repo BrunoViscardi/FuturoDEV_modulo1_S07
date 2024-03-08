@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.grid-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+                        "header header"
+                        "sidebar content";
+    grid-template-columns: 260px auto;
+    grid-template-rows: 90px auto;
+}
+
+.header{
+    grid-area: header;
+    background-color:#011936;
+    padding: 10px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #59594A;
+    padding: 10px;
+}
+
+.content{
+    grid-area: content;
+    background-color: #C2EABD;
+    padding: 10px;
+}
+

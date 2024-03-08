@@ -1,0 +1,96 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left top, #efc5dd, #e7c2e3, #dcc0e9, #cebeef, #bcbef4, #acc4fa, #9bc9fe, #8acfff, #80daff, #7ee5fd, #84eef8, #92f7f0);
+    color: #4F4F4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+}
+
+a:-webkit-any-link {
+    color:  #4460F1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.box-container{
+    margin: 40px 140px;
+    height: auto;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17.778px;
+    padding: 70px;
+}
+
+.box-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-titulos h1{
+    margin-top: 0;
+    font-size: 40px;
+    font-weight: 900;margin-bottom: 0;
+}
+
+.container-titulos h3{
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.container-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+input {
+    all: unset;
+    font-size: 17.778px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #E9EFF6;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    width: calc(100% - 2*40px);
+}
+
+.phone-number-input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#code{
+    width: 30px;
+    border-radius: 20px 0 0 20px;
+    border-right: solid 1px #828282;   
+}
+
+#phone{
+    border-radius: 0 20px 20px 0;
+}
+
+#button{
+    all: unset;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #4460F1;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: calc(100% - 2*40px);
+    cursor: pointer;
+}
